@@ -16,7 +16,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Smelkovaalla/8.4_Test1.git"
+    "url": "https://github.com/Smelkovaalla/8.4_Test1.git/issues"
   },
   "homepage": "https://github.com/Smelkovaalla/8.4_Test1#readme",
   "devDependencies": {
@@ -36,7 +36,8 @@
     "live-server": "^1.2.2",
     "mini-css-extract-plugin": "^2.7.6",
     "webpack": "^5.88.1",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   },
   "dependencies": {
     "core-js": "^3.31.0"

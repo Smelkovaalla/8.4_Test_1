@@ -12,5 +12,5 @@ const users = [
   { name: 'лучник', health: 80 },
 ];
 
-lifeBar(players);
+lifeBar(player);
 sorting(users);
