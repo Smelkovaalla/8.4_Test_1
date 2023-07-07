@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "lint": "eslint",
-    "test": "jest --coverage"
+    "coverage": "jest --coverage",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -16,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Smelkovaalla/8.4_Test1.git/issues"
+    "url": "https://github.com/Smelkovaalla/8.4_Test1/issues"
   },
   "homepage": "https://github.com/Smelkovaalla/8.4_Test1#readme",
   "devDependencies": {

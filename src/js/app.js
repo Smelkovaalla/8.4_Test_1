@@ -1,16 +1,4 @@
-import lifeBar from './lifebar';
-import sorting from './sorting';
-
-const player = {
-  name: 'Маг',
-  health: '90',
-};
-
-const users = [
-  { name: 'мечник', health: 10 },
-  { name: 'маг', health: 100 },
-  { name: 'лучник', health: 80 },
-];
-
-lifeBar(player);
-sorting(users);
+export default function healthSort(arr) {
+  const sortArr = arr.sort((a, b) => (a.health > b.health ? -1 : 1));
+  return sortArr;
+}
